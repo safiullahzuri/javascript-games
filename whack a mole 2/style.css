@@ -1,0 +1,30 @@
+body{
+	background-image: url('grass.jpg');
+	text-align: center;
+}
+
+
+.square{
+	width: 200px;
+	height: 200px;
+	border-style: dashed;
+	border-color: black;
+}
+
+.grid{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	width: 618px;
+	height: 618px; 
+	cursor: crosshair; 
+	margin: 0 auto;
+}
+
+.mole{
+	background-image: url('mole2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
